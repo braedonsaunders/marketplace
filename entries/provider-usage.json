@@ -1,7 +1,7 @@
 {
   "id": "provider-usage",
   "displayName": "Provider Usage",
-  "description": "Shows how much of each provider's plan is left — every rate-limit window, percent remaining, and when it resets — alongside 7/30/90-day token volume read from local Codex, Claude Code, and Cursor transcripts.",
+  "description": "Shows how much of each provider's plan is left — every rate-limit window, percent remaining, and when it resets — alongside 7/30/90-day token volume read from local Codex, Claude Code, Cursor, and opencode transcripts.",
   "icon": {
     "url": "./icons/provider-usage-752e444b.svg"
   },
@@ -13,6 +13,7 @@
     "codex",
     "claude-code",
     "cursor",
+    "opencode",
     "sidebar"
   ],
   "author": {
@@ -23,7 +24,7 @@
   "source": {
     "git": {
       "url": "https://github.com/braedonsaunders/bb-plugin-provider-usage.git",
-      "range": "^0.2.0"
+      "range": "^0.3.0"
     }
   }
 }
