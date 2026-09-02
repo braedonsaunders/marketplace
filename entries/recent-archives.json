@@ -12,6 +12,7 @@
     "interface",
     "filters"
   ],
+  "category": "thread-management",
   "author": {
     "name": "Braedon Saunders",
     "github": "braedonsaunders",
